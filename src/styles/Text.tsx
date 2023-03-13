@@ -12,7 +12,7 @@ const bodyDefaultConfig = {
 export const Text = styled("p", {
     color: "$grey1",
     fontSize: "$text1",
-    fontWeight: 400,
+    fontWeight: 500,
     variants: {
         type: {
             heading1: {

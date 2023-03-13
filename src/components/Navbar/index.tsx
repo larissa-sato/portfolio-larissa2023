@@ -14,6 +14,7 @@ import { FaBars } from "react-icons/fa";
 import { IoClose } from "react-icons/io5";
 import { Button } from "@/styles/Buttons";
 import { Container, Flex } from "@/styles/Global";
+import { Text } from "@/styles/Text";
 
 export interface MenuButtonOpen {
   open: Boolean;
@@ -38,6 +39,7 @@ export const NavBar = (): JSX.Element => {
         <NavbarMobileArea>
           <LogoTipo>
             <LogoTipoText>{userData.nameUser}</LogoTipoText>
+            <Text color="grey4">| {userData.titleUser}</Text>
           </LogoTipo>
           {isWide && (
             <Button
